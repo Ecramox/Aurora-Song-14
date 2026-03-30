@@ -29,7 +29,7 @@
   id: FloorSteel
   parent: BaseStationTile
   name: tiles-steel-floor
-  sprite: /Textures/Tiles/steel.png
+  sprite: /Textures/_Impstation/Tiles/Steel/steel.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -42,7 +42,7 @@
   id: FloorSteelCheckerLight
   parent: BaseStationTile
   name: tiles-steel-floor-checker-light
-  sprite: /Textures/Tiles/cafeteria.png
+  sprite: /Textures/_Impstation/Tiles/Misc/cafeteria.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -55,7 +55,7 @@
   id: FloorSteelCheckerDark
   parent: BaseStationTile
   name: tiles-steel-floor-checker-dark
-  sprite: /Textures/Tiles/checker_dark.png
+  sprite: /Textures/_Impstation/Tiles/Misc/checker_dark.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -68,7 +68,7 @@
   id: FloorSteelMini
   parent: BaseStationTile
   name: tiles-steel-floor-mini
-  sprite: /Textures/Tiles/steel_mini.png
+  sprite: /Textures/_Impstation/Tiles/Steel/steel_mini.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -81,7 +81,7 @@
   id: FloorSteelPavement
   parent: BaseStationTile
   name: tiles-steel-floor-pavement
-  sprite: /Textures/Tiles/steel_pavement.png
+  sprite: /Textures/_Impstation/Tiles/Steel/steel_pavement.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -94,7 +94,7 @@
   id: FloorSteelDiagonal
   parent: BaseStationTile
   name: tiles-steel-floor-diagonal
-  sprite: /Textures/Tiles/steel_diagonal.png
+  sprite: /Textures/_Impstation/Tiles/Steel/steel_diagonal.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -107,14 +107,19 @@
   id: FloorSteelOffset
   parent: BaseStationTile
   name: tiles-steel-floor-offset
-  sprite: /Textures/Tiles/steel_offset.png
+  sprite: /Textures/_Impstation/Tiles/Steel/steel_offset.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
   itemDrop: FloorTileItemSteelOffset
 
 - type: tile
   id: FloorSteelMono
   parent: BaseStationTile
   name: tiles-steel-floor-mono
-  sprite: /Textures/Tiles/steel_mono.png
+  sprite: /Textures/_Impstation/Tiles/Steel/steel_mono.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -127,7 +132,7 @@
   id: FloorSteelPavementVertical
   parent: BaseStationTile
   name: tiles-steel-floor-pavement-vertical
-  sprite: /Textures/Tiles/steel_pavement_vertical.png
+  sprite: /Textures/_Impstation/Tiles/Steel/steel_pavement_vertical.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -140,7 +145,7 @@
   id: FloorSteelHerringbone
   parent: BaseStationTile
   name: tiles-steel-floor-herringbone
-  sprite: /Textures/Tiles/steel_herringbone.png
+  sprite: /Textures/_Impstation/Tiles/Steel/steel_herringbone.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -153,7 +158,7 @@
   id: FloorSteelDiagonalMini
   parent: BaseStationTile
   name: tiles-steel-floor-diagonal-mini
-  sprite: /Textures/Tiles/steel_diagonal_mini.png
+  sprite: /Textures/_Impstation/Tiles/Steel/steel_diagonal_mini.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -184,7 +189,7 @@
   id: FloorPlastic
   parent: BaseStationTile
   name: tiles-plastic-floor
-  sprite: /Textures/Tiles/plastic.png
+  sprite: /Textures/_Impstation/Tiles/Steel/plastic.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -214,7 +219,7 @@
   id: FloorWhite
   parent: BaseStationTile
   name: tiles-white-floor
-  sprite: /Textures/Tiles/white.png
+  sprite: /Textures/_Impstation/Tiles/White/white.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -229,7 +234,7 @@
   id: FloorWhiteMini
   parent: BaseStationTile
   name: tiles-white-floor-mini
-  sprite: /Textures/Tiles/white_mini.png
+  sprite: /Textures/_Impstation/Tiles/White/white_mini.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -244,7 +249,7 @@
   id: FloorWhitePavement
   parent: BaseStationTile
   name: tiles-white-floor-pavement
-  sprite: /Textures/Tiles/white_pavement.png
+  sprite: /Textures/_Impstation/Tiles/White/white_pavement.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -259,7 +264,7 @@
   id: FloorWhiteDiagonal
   parent: BaseStationTile
   name: tiles-white-floor-diagonal
-  sprite: /Textures/Tiles/white_diagonal.png
+  sprite: /Textures/_Impstation/Tiles/White/white_diagonal.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -274,7 +279,10 @@
   id: FloorWhiteOffset
   parent: BaseStationTile
   name: tiles-white-floor-offset
-  sprite: /Textures/Tiles/white_offset.png
+  sprite: /Textures/_Impstation/Tiles/White/white_offset.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemWhiteOffset
@@ -283,7 +291,7 @@
   id: FloorWhiteMono
   parent: BaseStationTile
   name: tiles-white-floor-mono
-  sprite: /Textures/Tiles/white_mono.png
+  sprite: /Textures/_Impstation/Tiles/White/white_mono.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -298,7 +306,7 @@
   id: FloorWhitePavementVertical
   parent: BaseStationTile
   name: tiles-white-floor-pavement-vertical
-  sprite: /Textures/Tiles/white_pavement_vertical.png
+  sprite: /Textures/_Impstation/Tiles/White/white_pavement_vertical.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -313,7 +321,7 @@
   id: FloorWhiteHerringbone
   parent: BaseStationTile
   name: tiles-white-floor-herringbone
-  sprite: /Textures/Tiles/white_herringbone.png
+  sprite: /Textures/_Impstation/Tiles/White/white_herringbone.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -328,7 +336,7 @@
   id: FloorWhiteDiagonalMini
   parent: BaseStationTile
   name: tiles-white-floor-diagonal-mini
-  sprite: /Textures/Tiles/white_diagonal_mini.png
+  sprite: /Textures/_Impstation/Tiles/White/white_diagonal_mini.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -343,7 +351,7 @@
   id: FloorWhitePlastic
   parent: BaseStationTile
   name: tiles-plastic-white-floor
-  sprite: /Textures/Tiles/white_plastic.png
+  sprite: /Textures/_Impstation/Tiles/White/white_plastic.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -358,7 +366,7 @@
   id: FloorDark
   parent: BaseStationTile
   name: tiles-dark-floor
-  sprite: /Textures/Tiles/dark.png
+  sprite: /Textures/_Impstation/Tiles/Dark/dark.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -373,7 +381,7 @@
   id: FloorDarkMini
   parent: BaseStationTile
   name: tiles-dark-floor-mini
-  sprite: /Textures/Tiles/dark_mini.png
+  sprite: /Textures/_Impstation/Tiles/Dark/dark_mini.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -388,7 +396,7 @@
   id: FloorDarkPavement
   parent: BaseStationTile
   name: tiles-dark-floor-pavement
-  sprite: /Textures/Tiles/dark_pavement.png
+  sprite: /Textures/_Impstation/Tiles/Dark/dark_pavement.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -403,7 +411,7 @@
   id: FloorDarkDiagonal
   parent: BaseStationTile
   name: tiles-dark-floor-diagonal
-  sprite: /Textures/Tiles/dark_diagonal.png
+  sprite: /Textures/_Impstation/Tiles/Dark/dark_diagonal.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -418,7 +426,10 @@
   id: FloorDarkOffset
   parent: BaseStationTile
   name: tiles-dark-floor-offset
-  sprite: /Textures/Tiles/dark_offset.png
+  sprite: /Textures/_Impstation/Tiles/Dark/dark_offset.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemDarkOffset
@@ -427,7 +438,7 @@
   id: FloorDarkMono
   parent: BaseStationTile
   name: tiles-dark-floor-mono
-  sprite: /Textures/Tiles/dark_mono.png
+  sprite: /Textures/_Impstation/Tiles/Dark/dark_mono.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -442,7 +453,7 @@
   id: FloorDarkPavementVertical
   parent: BaseStationTile
   name: tiles-dark-floor-pavement-vertical
-  sprite: /Textures/Tiles/dark_pavement_vertical.png
+  sprite: /Textures/_Impstation/Tiles/Dark/dark_pavement_vertical.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -457,7 +468,7 @@
   id: FloorDarkHerringbone
   parent: BaseStationTile
   name: tiles-dark-floor-herringbone
-  sprite: /Textures/Tiles/dark_herringbone.png
+  sprite: /Textures/_Impstation/Tiles/Dark/dark_herringbone.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -472,7 +483,7 @@
   id: FloorDarkDiagonalMini
   parent: BaseStationTile
   name: tiles-dark-floor-diagonal-mini
-  sprite: /Textures/Tiles/dark_diagonal_mini.png
+  sprite: /Textures/_Impstation/Tiles/Dark/dark_diagonal_mini.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -487,7 +498,7 @@
   id: FloorDarkPlastic
   parent: BaseStationTile
   name: tiles-plastic-dark-floor
-  sprite: /Textures/Tiles/dark_plastic.png
+  sprite: /Textures/_Impstation/Tiles/Dark/dark_plastic.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -502,7 +513,10 @@
   id: FloorTechMaint
   parent: BaseStationTile
   name: tiles-techmaint-floor
-  sprite: /Textures/Tiles/tech_maint.png
+  sprite: /Textures/_Impstation/Tiles/Maint/tech_maint.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemTechmaint
@@ -511,7 +525,10 @@
   id: FloorTechMaintDark
   parent: BaseStationTile
   name: tiles-techmaint-floor-dark
-  sprite: /Textures/Tiles/tech_maint_dark.png
+  sprite: /Textures/_Impstation/Tiles/Maint/tech_maint_dark.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemTechmaintDark
@@ -529,7 +546,10 @@
   id: FloorMono
   parent: BaseStationTile
   name: tiles-mono-floor
-  sprite: /Textures/Tiles/mono.png
+  sprite: /Textures/_Impstation/Tiles/Misc/mono.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemMono
@@ -547,7 +567,7 @@
   id: FloorSteelDirty
   parent: BaseStationTile
   name: tiles-dirty-steel-floor
-  sprite: /Textures/Tiles/steel_dirty.png
+  sprite: /Textures/_Impstation/Tiles/Steel/steel_dirty.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -562,7 +582,10 @@
   id: FloorElevatorShaft
   parent: BaseStationTile
   name: tiles-elevator-shaft
-  sprite: /Textures/Tiles/elevator_shaft.png
+  sprite: /Textures/_Impstation/Tiles/Misc/elevator_shaft.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemElevatorShaft
@@ -589,7 +612,10 @@
   id: FloorBlue
   parent: BaseStationTile
   name: tiles-blue-tile
-  sprite: /Textures/Tiles/blue.png
+  sprite: /Textures/_Impstation/Tiles/Misc/blue.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemBlue
@@ -598,7 +624,7 @@
   id: FloorSteelLime
   parent: BaseStationTile
   name: tiles-lime-floor
-  sprite: /Textures/Tiles/lime.png
+  sprite: /Textures/_Impstation/Tiles/Misc/lime.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -611,7 +637,10 @@
   id: FloorMining
   parent: BaseStationTile
   name: tiles-mining-tile
-  sprite: /Textures/Tiles/mining_floor.png
+  sprite: /Textures/_Impstation/Tiles/Mining/mining_floor.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemMining
@@ -620,7 +649,10 @@
   id: FloorMiningDark
   parent: BaseStationTile
   name: tiles-mining-dark-tile
-  sprite: /Textures/Tiles/mining_floor_dark.png
+  sprite: /Textures/_Impstation/Tiles/Mining/mining_floor_dark.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemMiningDark
@@ -629,7 +661,10 @@
   id: FloorMiningLight
   parent: BaseStationTile
   name: tiles-mining-light-tile
-  sprite: /Textures/Tiles/mining_floor_light.png
+  sprite: /Textures/_Impstation/Tiles/Mining/mining_floor_light.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemMiningLight
@@ -639,7 +674,10 @@
   id: FloorFreezer
   parent: BaseStationTile
   name: tiles-freezer
-  sprite: /Textures/Tiles/freezer.png
+  sprite: /Textures/_Impstation/Tiles/Misc/freezer.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemFreezer
@@ -648,21 +686,31 @@
   id: FloorShowroom
   parent: BaseStationTile
   name: tiles-showroom-floor
-  sprite: /Textures/Tiles/showroom.png
+  sprite: /Textures/_Impstation/Tiles/Misc/showroom.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
   itemDrop: FloorTileItemShowroom
 
 - type: tile
   id: FloorHydro
   parent: BaseStationTile
   name: tiles-hydro-floor
-  sprite: /Textures/Tiles/hydro.png
+  sprite: /Textures/_Impstation/Tiles/Misc/hydro.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
   itemDrop: FloorTileItemHydro
 
 - type: tile
   id: FloorBar
   parent: BaseStationTile
   name: tiles-bar-floor
-  sprite: /Textures/Tiles/bar.png
+  sprite: /Textures/_Impstation/Tiles/Misc/bar.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -675,21 +723,34 @@
   id: FloorClown
   parent: BaseStationTile
   name: tiles-clown-floor
-  sprite: /Textures/Tiles/clown.png
+  sprite: /Textures/_Impstation/Tiles/Misc/clown.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
   itemDrop: FloorTileItemClown
 
 - type: tile
   id: FloorMime
   parent: BaseStationTile
   name: tiles-mime-floor
-  sprite: /Textures/Tiles/mime.png
+  sprite: /Textures/_Impstation/Tiles/Misc/mime.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
   itemDrop: FloorTileItemMime
 
 - type: tile
   id: FloorKitchen
   parent: BaseStationTile
   name: tiles-kitchen-floor
-  sprite: /Textures/Tiles/kitchen.png
+  sprite: /Textures/_Impstation/Tiles/Misc/kitchen.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemKitchen
@@ -698,7 +759,10 @@
   id: FloorLaundry
   parent: BaseStationTile
   name: tiles-laundry-floor
-  sprite: /Textures/Tiles/laundry.png
+  sprite: /Textures/_Impstation/Tiles/Misc/laundry.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemLaundry
@@ -707,7 +771,7 @@
   id: FloorSteelDamaged
   parent: BaseStationTile
   name: tiles-steel-floor
-  sprite: /Textures/Tiles/steel_damaged.png
+  sprite: /Textures/_Impstation/Tiles/Steel/steel_damaged.png # Imp port
   variants: 5
   placementVariants:
   - 1.0
@@ -722,7 +786,7 @@
   id: FloorConcrete
   parent: BaseStationTile
   name: tiles-concrete-tile
-  sprite: /Textures/Tiles/Planet/Concrete/concrete.png
+  sprite: /Textures/_Impstation/Tiles/Concrete/concrete.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -737,7 +801,7 @@
   id: FloorConcreteMono
   parent: BaseStationTile
   name: tiles-concrete-slab
-  sprite: /Textures/Tiles/Planet/Concrete/concrete_mono.png
+  sprite: /Textures/_Impstation/Tiles/Concrete/concrete_mono.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -752,7 +816,7 @@
   id: FloorConcreteSmooth
   parent: BaseStationTile
   name: tiles-concrete-smooth
-  sprite: /Textures/Tiles/Planet/Concrete/concrete_smooth.png
+  sprite: /Textures/_Impstation/Tiles/Concrete/concrete_smooth.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -767,7 +831,7 @@
   id: FloorGrayConcrete
   parent: BaseStationTile
   name: tiles-gray-concrete-tile
-  sprite: /Textures/Tiles/Planet/Concrete/grayconcrete.png
+  sprite: /Textures/_Impstation/Tiles/Concrete/grayconcrete.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -782,7 +846,7 @@
   id: FloorGrayConcreteMono
   parent: BaseStationTile
   name: tiles-gray-concrete-slab
-  sprite: /Textures/Tiles/Planet/Concrete/grayconcrete_mono.png
+  sprite: /Textures/_Impstation/Tiles/Concrete/grayconcrete_mono.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -797,7 +861,7 @@
   id: FloorGrayConcreteSmooth
   parent: BaseStationTile
   name: tiles-gray-concrete-smooth
-  sprite: /Textures/Tiles/Planet/Concrete/grayconcrete_smooth.png
+  sprite: /Textures/_Impstation/Tiles/Concrete/grayconcrete_smooth.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -812,7 +876,7 @@
   id: FloorOldConcrete
   parent: BaseStationTile
   name: tiles-old-concrete-tile
-  sprite: /Textures/Tiles/Planet/Concrete/oldconcrete.png
+  sprite: /Textures/_Impstation/Tiles/Concrete/oldconcrete.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -827,7 +891,7 @@
   id: FloorOldConcreteMono
   parent: BaseStationTile
   name: tiles-old-concrete-slab
-  sprite: /Textures/Tiles/Planet/Concrete/oldconcrete_mono.png
+  sprite: /Textures/_Impstation/Tiles/Concrete/oldconcrete_mono.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -842,7 +906,7 @@
   id: FloorOldConcreteSmooth
   parent: BaseStationTile
   name: tiles-old-concrete-smooth
-  sprite: /Textures/Tiles/Planet/Concrete/oldconcrete_smooth.png
+  sprite: /Textures/_Impstation/Tiles/Concrete/oldconcrete_smooth.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -858,7 +922,10 @@
   id: FloorArcadeBlue
   parent: BaseStationTile
   name: tiles-blue-arcade-floor
-  sprite: /Textures/Tiles/arcadeblue.png
+  sprite: /Textures/_Impstation/Tiles/Carpet/arcadeblue.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepCarpet
   barestepSounds:
@@ -870,7 +937,10 @@
   id: FloorArcadeBlue2
   parent: BaseStationTile
   name: tiles-blue-arcade-floor
-  sprite: /Textures/Tiles/arcadeblue2.png
+  sprite: /Textures/_Impstation/Tiles/Carpet/arcadeblue2.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepCarpet
   barestepSounds:
@@ -882,7 +952,10 @@
   id: FloorArcadeRed
   parent: BaseStationTile
   name: tiles-red-arcade-floor
-  sprite: /Textures/Tiles/arcadered.png
+  sprite: /Textures/_Impstation/Tiles/Carpet/arcadered.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepCarpet
   barestepSounds:
@@ -918,7 +991,10 @@
   id: FloorCarpetOffice
   parent: BaseStationTile
   name: tiles-office-carpet-floor
-  sprite: /Textures/Tiles/carpetoffice.png
+  sprite: /Textures/_Impstation/Tiles/Carpet/carpetoffice.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepCarpet
   barestepSounds:
@@ -959,7 +1035,7 @@
   id: FloorShuttleWhite
   parent: BaseStationTile
   name: tiles-white-shuttle-floor
-  sprite: /Textures/Tiles/shuttlewhite.png
+  sprite: /Textures/_Impstation/Tiles/Shuttle/shuttle_white.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -972,7 +1048,7 @@
   id: FloorShuttleGrey
   parent: BaseStationTile
   name: tiles-grey-shuttle-floor
-  sprite: /Textures/Tiles/shuttlegrey.png
+  sprite: /Textures/_Impstation/Tiles/Shuttle/shuttle_grey.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -985,7 +1061,7 @@
   id: FloorShuttleBlack
   parent: BaseStationTile
   name: tiles-black-shuttle-floor
-  sprite: /Textures/Tiles/shuttleblack.png
+  sprite: /Textures/_Impstation/Tiles/Shuttle/shuttle_black.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -998,7 +1074,7 @@
   id: FloorShuttleBlue
   parent: BaseStationTile
   name: tiles-blue-shuttle-floor
-  sprite: /Textures/Tiles/shuttleblue.png
+  sprite: /Textures/_Impstation/Tiles/Shuttle/shuttle_blue.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -1011,7 +1087,7 @@
   id: FloorShuttleOrange
   parent: BaseStationTile
   name: tiles-orange-shuttle-floor
-  sprite: /Textures/Tiles/shuttleorange.png
+  sprite: /Textures/_Impstation/Tiles/Shuttle/shuttle_orange.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -1024,7 +1100,7 @@
   id: FloorShuttlePurple
   parent: BaseStationTile
   name: tiles-purple-shuttle-floor
-  sprite: /Textures/Tiles/shuttlepurple.png
+  sprite: /Textures/_Impstation/Tiles/Shuttle/shuttle_purple.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -1037,7 +1113,7 @@
   id: FloorShuttleRed
   parent: BaseStationTile
   name: tiles-red-shuttle-floor
-  sprite: /Textures/Tiles/shuttlered.png
+  sprite: /Textures/_Impstation/Tiles/Shuttle/shuttle_red.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -1052,7 +1128,10 @@
   id: FloorGold
   parent: BaseStationTile
   name: tiles-gold-tile
-  sprite: /Textures/Tiles/gold.png
+  sprite: /Textures/_Impstation/Tiles/Misc/gold.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemGold
@@ -1070,7 +1149,7 @@
   id: FloorGlass
   parent: BaseStationTile
   name: tiles-glass-floor
-  sprite: /Textures/Tiles/glass.png
+  sprite: /Textures/_Impstation/Tiles/Glass/glass.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -1085,7 +1164,7 @@
   id: FloorRGlass
   parent: BaseStationTile
   name: tiles-reinforced-glass-floor
-  sprite: /Textures/Tiles/rglass.png
+  sprite: /Textures/_Impstation/Tiles/Glass/rglass.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -1100,7 +1179,7 @@
   id: FloorMetalFoam
   parent: BaseStationTile
   name: tiles-metal-foam
-  sprite: /Textures/Tiles/foammetal.png
+  sprite: /Textures/_Impstation/Tiles/Plating/foam_metal.png # Imp port
   variants: 1
   placementVariants:
   - 1.0
@@ -1113,7 +1192,10 @@
   id: FloorGreenCircuit
   parent: BaseStationTile
   name: tiles-green-circuit-floor
-  sprite: /Textures/Tiles/green_circuit.png
+  sprite: /Textures/_Impstation/Tiles/Circuit/green_circuit.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemGCircuit
@@ -1122,7 +1204,10 @@
   id: FloorBlueCircuit
   parent: BaseStationTile
   name: tiles-blue-circuit-floor
-  sprite: /Textures/Tiles/blue_circuit.png
+  sprite: /Textures/_Impstation/Tiles/Circuit/blue_circuit.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemBCircuit
@@ -1131,7 +1216,10 @@
   id: FloorRedCircuit
   parent: BaseStationTile
   name: tiles-red-circuit-floor
-  sprite: /Textures/Tiles/red_circuit.png
+  sprite: /Textures/_Impstation/Tiles/Circuit/red_circuit.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemRCircuit
@@ -1533,7 +1621,7 @@
   id: FloorTechMaint3
   parent: BaseStationTile
   name: tiles-techmaint3-floor
-  sprite: /Textures/Tiles/grating_maint.png
+  sprite: /Textures/_Impstation/Tiles/Maint/grating_maint.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
@@ -1616,10 +1704,25 @@
   id: FloorHull
   parent: BaseStationTile
   name: tiles-hull
-  sprite: /Textures/Tiles/hull.png
+  sprite: /Textures/_Impstation/Tiles/Misc/hull.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemSteel #probably should not be normally obtainable, but the game shits itself and dies when you try to put null here
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorHullReinforced
+  name: tiles-hull-reinforced
+  sprite: /Textures/_Impstation/Tiles/Misc/hull_reinforced.png # Imp port
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 100000 #/tg/ has this set as "INFINITY." I don't know if that exists here so I've just added an extra 0
+  indestructible: true
 
 - type: tile
   id: FloorReinforcedHardened
@@ -1823,7 +1926,7 @@
   id: FloorDarkSquiggly
   parent: BaseStationTile
   name: tiles-dark-squiggly
-  sprite: /Textures/Tiles/dark_squiggly.png
+  sprite: /Textures/_Impstation/Tiles/Dark/dark_squiggly.png # Imp port
   variants: 4
   placementVariants:
   - 1.0
