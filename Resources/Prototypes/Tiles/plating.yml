@@ -1,7 +1,7 @@
 - type: tile
   id: Plating
   name: tiles-plating
-  sprite: /Textures/Tiles/plating.png
+  sprite: /Textures/_Impstation/Tiles/Plating/plating.png # Imp port
   baseTurf: Lattice
   isSubfloor: true
   deconstructTools: [ Axing ] # DeltaV - The return of fireaxe prying
@@ -13,7 +13,7 @@
 - type: tile
   id: PlatingDamaged
   name: tiles-plating
-  sprite: /Textures/Tiles/plating_damaged.png
+  sprite: /Textures/_Impstation/Tiles/Plating/plating_damaged.png # Imp port
   variants: 3
   placementVariants:
   - 1.0
@@ -66,7 +66,7 @@
 - type: tile
   id: Lattice
   name: tiles-lattice
-  sprite: /Textures/Tiles/lattice.png
+  sprite: /Textures/_Impstation/Tiles/Lattice/lattice.png # Imp port
   baseTurf: Space
   isSubfloor: true
   deconstructTools: [ Cutting ]
@@ -82,7 +82,7 @@
 - type: tile
   id: TrainLattice
   name: tiles-lattice-train
-  sprite: /Textures/Tiles/latticeTrain.png
+  sprite: /Textures/_Impstation/Tiles/Lattice/lattice_train.png # Imp port
   baseTurf: Space
   isSubfloor: true
   deconstructTools: [ Cutting ]

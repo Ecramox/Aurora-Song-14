@@ -1,0 +1,20 @@
+﻿# Static
+
+- type: latheRecipePack
+  id: FloorTilesStaticImp
+  recipes:
+  - FloorTileItemTechmaintDark
+  - FloorTileItemApid
+  - FloorTileItemChapelNE
+  - FloorTileItemChapelNW
+  - FloorTileItemChapelSE
+  - FloorTileItemChapelSW
+  - FloorTileItemGreen
+  - FloorTileItemGreenPavement
+  - FloorTileItemGreenDiagonal
+  - FloorTileItemGreenOffset
+  - FloorTileItemImpGreenMono
+  - FloorTileItemGreenPavementVertical
+  - FloorTileItemGreenHerringbone
+  - FloorTileItemGreenDiagonalMini
+  - FloorTileItemGreenSquiggly
