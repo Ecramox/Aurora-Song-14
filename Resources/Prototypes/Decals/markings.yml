@@ -17,7 +17,7 @@
   id: Bot
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/markings.rsi
+    sprite: _Impstation/Decals/markings.rsi # Imp port
     state: bot
 
 - type: decal
@@ -25,14 +25,14 @@
   tags: ["station", "markings"]
   defaultCustomColor: true
   sprite:
-    sprite: Decals/markings.rsi
+    sprite: _Impstation/Decals/markings.rsi # Imp port
     state: bot_greyscale
 
 - type: decal
   id: BotLeft
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/markings.rsi
+    sprite: _Impstation/Decals/markings.rsi # Imp port
     state: bot_left
 
 - type: decal
@@ -40,14 +40,14 @@
   tags: ["station", "markings"]
   defaultCustomColor: true
   sprite:
-    sprite: Decals/markings.rsi
+    sprite: _Impstation/Decals/markings.rsi # Imp port
     state: bot_left_greyscale
 
 - type: decal
   id: BotRight
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/markings.rsi
+    sprite: _Impstation/Decals/markings.rsi # Imp port
     state: bot_right
 
 - type: decal
@@ -55,14 +55,14 @@
   tags: ["station", "markings"]
   defaultCustomColor: true
   sprite:
-    sprite: Decals/markings.rsi
+    sprite: _Impstation/Decals/markings.rsi # Imp port
     state: bot_right_greyscale
 
 - type: decal
   id: Box
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/markings.rsi
+    sprite: _Impstation/Decals/markings.rsi # Imp port
     state: box
 
 - type: decal
@@ -70,7 +70,7 @@
   tags: ["station", "markings"]
   defaultCustomColor: true
   sprite:
-    sprite: Decals/markings.rsi
+    sprite: _Impstation/Decals/markings.rsi # Imp port
     state: box_greyscale
 
 - type: decal
@@ -92,7 +92,7 @@
   id: Delivery
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/markings.rsi
+    sprite: _Impstation/Decals/markings.rsi # Imp port
     state: delivery
 
 - type: decal
@@ -100,14 +100,14 @@
   tags: ["station", "markings"]
   defaultCustomColor: true
   sprite:
-    sprite: Decals/markings.rsi
+    sprite: _Impstation/Decals/markings.rsi # Imp port
     state: delivery_greyscale
 
 - type: decal
   id: LoadingArea
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/markings.rsi
+    sprite: _Impstation/Decals/markings.rsi # Imp port
     state: loading_area
 
 - type: decal
@@ -115,7 +115,7 @@
   tags: ["station", "markings"]
   defaultCustomColor: true
   sprite:
-    sprite: Decals/markings.rsi
+    sprite: _Impstation/Decals/markings.rsi # Imp port
     state: loading_area_greyscale
 
 - type: decal
