@@ -4,6 +4,7 @@ stack-chapel-floor-ne = chapel floor (north-east)
 stack-chapel-floor-nw = chapel floor (north-west)
 stack-chapel-floor-se = chapel floor (south-east)
 stack-chapel-floor-sw = chapel floor (south-west)
+stack-cardboard-floor-tile = cardboard floor
 
 # extra tile color variants
 stack-squiggly = steel squiggly tile
