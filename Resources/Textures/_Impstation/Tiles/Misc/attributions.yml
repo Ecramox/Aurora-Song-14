@@ -22,8 +22,3 @@
   license: "CC-BY-SA-3.0"
   copyright: "Taken from /tg/station at commit 6665eec76c98a4f3f89bebcd10b34b47dcc0b8ae, modified by Ecramox (Github) for Impstation"
   source: "https://github.com/tgstation/tgstation/"
-
-- files: [ "hull_reinforced.png"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Taken from /tg/station at commit 6665eec76c98a4f3f89bebcd10b34b47dcc0b8ae, modified by Ecramox (Github) for Impstation, modified again by MattFright for Quantum Blue, recolored by Ecramox again."
-  source: "https://github.com/tgstation/tgstation/"

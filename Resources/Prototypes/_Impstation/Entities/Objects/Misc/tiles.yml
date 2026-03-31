@@ -268,7 +268,7 @@
 - type: entity
   name: green steel mono tile
   parent: FloorTileItemGreen
-  id: FloorTileItemGreenMono
+  id: FloorTileItemImpGreenMono
   components:
   - type: Sprite
     state: green-mono
@@ -277,9 +277,9 @@
   - type: FloorTile
     outputs:
       - Plating
-      - FloorGreenMono
+      - FloorImpGreenMono
   - type: Stack
-    stackType: FloorTileGreenMono
+    stackType: FloorTileImpGreenMono
 
 - type: entity
   name: green steel vertical pavement
